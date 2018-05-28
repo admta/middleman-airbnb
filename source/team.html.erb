@@ -1,0 +1,8 @@
+<ul class="list-inline text-center">
+  <% ["admta", "Nadrioc"].each do |github_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/camps/154/classmates/#{github_username}", class: "img-circle" %>
+      <h3><%= github_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
